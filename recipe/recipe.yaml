@@ -15,7 +15,7 @@ source:
   sha256: fe4787e12e4b261af5272ad0a1075cd6e24bfa2792a26c1916a0c806290bea13
 
 build:
-  number: 0
+  number: 1
   # Per-arch (NOT noarch), following the openspec pattern: each
   # platform's npm global install lays down native shims for all 16 bin
   # entries (symlinks on unix, .cmd on win), which a single noarch
