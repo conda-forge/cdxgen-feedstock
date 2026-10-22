@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "12.8.7"
+  version: "12.9.0"
   # Keep in sync with cdxgen's optionalDependencies.
   atom_parsetools_version: "1.3.0"
 
@@ -12,7 +12,7 @@ package:
 
 source:
   url: https://registry.npmjs.org/@cyclonedx/cdxgen/-/cdxgen-${{ version }}.tgz
-  sha256: df3dfd0c2023f06f800d866ef52dac65255ce14f9b266a8003d0ac8ac2134735
+  sha256: 56a4d2b7042620e419617b6620f2b5ac7f61265d296601e5bda41e3a7c672b0f
 
 build:
   number: 0
